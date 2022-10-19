@@ -1,6 +1,6 @@
 <template>
   <div class="clearAll" @click="$emit('clearAll')">
-    clearAll
+    CLEAR ALL
   </div>
 </template>
 
@@ -15,10 +15,14 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: gray;
+    background: 
+    linear-gradient(90deg, #FDA085 0%, #F6D365 100%);
     color: white;
     height: 35px;
+    margin-top: 20px;
     border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px 0px #FDA085;
 
   }
 </style>

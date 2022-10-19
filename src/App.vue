@@ -1,7 +1,4 @@
 <template>
-  <div class="header">
-    <h1>TODO LIST</h1>
-  </div>
   <todo-input @addTodo="addTodoItem"></todo-input>
   <todo-list :todoItem="todoItem" @reDel="removeDel"></todo-list>
   <todo-footer @clearAll="clearAll"></todo-footer>
