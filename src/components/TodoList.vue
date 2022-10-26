@@ -27,25 +27,29 @@
   
   <style lang="scss">
     .itemList {
+      background: linear-gradient(90deg, #FDA085 0%, #F6D365 100%);padding: 20px;border-radius: 10px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       height:35px;
+      padding: 10px;
+      margin-bottom: 5px;
       // background: pink;
-      margin-bottom: 10px;
       .list{
         display: flex;
-        gap:10px
+        gap:10px;
+        color: white;
       }
       .del{
-        background: skyblue;
-        padding:0 20px;
         height: 100%;
         cursor:pointer;
         align-self:start;
         display: flex;
         justify-content: center;
         align-items: center;
+        i{
+          color: white;
+        }
       }
     }
   </style>

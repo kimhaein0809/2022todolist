@@ -75,6 +75,7 @@
     margin-top: 10px;
   }
   .todoWrap{
+    margin-bottom:24px;
     background: linear-gradient(90deg, #FDA085 0%, #F6D365 100%);padding: 20px;border-radius: 10px;
             position: relative;
             box-shadow: 5px 5px 0px 0px #FDA085;
