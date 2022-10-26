@@ -36,4 +36,11 @@
           border-radius:20px;
           box-shadow: 0 0 10px rgba(0,0,0,0.3);
       }
+      button{
+        background: none;
+        border-radius: 5px;
+        padding: 5px;
+        border-color: #eee;
+        font-weight: bold;
+      }
   </style>

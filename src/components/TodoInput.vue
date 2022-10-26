@@ -28,8 +28,8 @@
   
     <transition name="mView">
       <modal v-if="modalView" @click="modalView = false">
-        <template v-slot:header>경고</template>
-        <template v-slot:body>자료를 입력하세요</template>
+        <template v-slot:header><i class="fa-solid fa-circle-exclamation"></i></template>
+        <template v-slot:body>할일을 입력하세요.</template>
       </modal>
     </transition>
   
@@ -52,9 +52,7 @@
         if (this.newTodoItem != "") {
           let value = this.newTodoItem && this.newTodoItem.trim();
           this.$emit("addTodo", value);
-          // this.newTodoItem = document.querySelector(".inp").value;
         } else {
-          // alert("오늘의할일을 입력하세요")
           this.modalView = true;
         }
         this.newTodoItem = "";
